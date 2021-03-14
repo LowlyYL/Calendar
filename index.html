@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="main">
+        <div class="calendar-container">
+            <p class="logo">Calendar</p>
+            <p class="thisDate"></p>
+            <div class="calendar-container__header">
+                <button class="arrow left-arrow"><</button>
+                <div class="dateSearch">
+                    <input class="calendar__year" type="number" placeholder="Enter Year">
+                    <input class="calendar__month" type="number" placeholder="Enter Month 1-12">
+                    <button class="calendar__btn">Show</button>
+                </div>
+                <button class="arrow right-arrow">></button>
+            </div>
+            <div class="calendar-container__main">
+                <ul class="week">
+                    <ul class="sunday">Sunday</ul>
+                    <ul class="monday">Monday</ul>
+                    <ul class="tuesday">Tuesday</ul>
+                    <ul class="wednesday">Wednesday</ul>
+                    <ul class="thursday">Thursday</ul>
+                    <ul class="friday">Friday</ul>
+                    <ul class="saturday">Saturday</ul>
+                </ul>
+
+
+            </div> 
+        </div>
+    </div>
+</body>
+    <script src="./js/main.js" type="module"></script>
+</html>

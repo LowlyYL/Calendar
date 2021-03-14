@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.thisDate {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6dc83;
+}
+
+.calendar__year, .calendar__month {
+    border: 1px solid white;
+	background-color: transparent;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.calendar__year::placeholder, .calendar__month::placeholder {
+    color: white;
+  }
+
+.calendar__month {
+    margin: 10px 0;
+}
+
+.calendar__btn {
+	background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    outline:none;
+}
+
+.calendar__btn:hover {
+	background-color: #e6dc83;
+    color: #fff;
+}
+
+.calendar-container {
+    min-width: 550px;
+    min-height: 400px;
+    width: 40%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #29323f;
+    color: #fff;
+    box-shadow: 5px 10px 20px rgb(0 0 0 / 60%);
+    border-radius: 5px;
+}
+
+.calendar-container__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+}
+
+.dateSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.arrow {
+    height: 80px;
+    width: 80px;
+    font-size: 65px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline:none;
+}
+
+.left-arrow, .right-arrow {
+    display: none;
+}
+
+.calendar-container__main {
+    width: 100%;
+    height: 80vh;
+    margin: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.week {
+    display: flex;
+    justify-self: center;
+}
+
+.week > ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.week > ul > li {
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #29323f;
+    text-align: center;
+}
+
+.emptyLi {
+    width: 38.21px;
+    height: 18.4px;
+    border: none;
+}
+
+.sunday > .day, .saturday > .day {
+    background-color: #ff3636;
+}
+
+.today {
+    background-color: #3ac53a
+}
+
+.Mar8 {
+    background-color: #fb6e87;
+}
+
+.emptyLi {
+    width: 38.21px;
+    height: 18.4px;
+}
